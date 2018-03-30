@@ -8,7 +8,7 @@ def line(katz_deli)
       puts "The line is currently: "
       katz_deli.each {|name|
          puts i". "name
-         i += 1
+
          }
 
   end
