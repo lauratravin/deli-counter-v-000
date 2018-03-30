@@ -11,10 +11,6 @@ def line(katz_deli)
          i += 1
          }
 
-
-     end
-
-
   end
 
 end
