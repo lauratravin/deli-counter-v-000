@@ -6,11 +6,11 @@ def line(katz_deli)
   elsif
 
       puts "The line is currently: "
+
        katz_deli.each do |name|
-          puts name
+          return name
 
         end
-
   end
 
 end
