@@ -6,10 +6,10 @@ def line(katz_deli)
   elsif
       i = 0
       puts "The line is currently: "
-       katz_deli.each {|name|
+       katz_deli.each do |name|
           puts name
           i += 1
-          }
+        end
 
   end
 
