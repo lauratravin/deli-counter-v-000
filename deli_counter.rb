@@ -10,6 +10,7 @@ def line(katz_deli)
        new_array << "The line is currently:"
        katz_deli.each do |name|
           new_array <<  "#{i}. #{name}"
+          i += 1
         end
         new_array.join
   end
