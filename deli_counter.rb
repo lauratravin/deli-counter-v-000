@@ -5,7 +5,7 @@ def line(katz_deli)
      puts "The line is currently empty."
   elsif
 
-       new_arr = []
+       new_array = []
        i = 1
        new_array << "The line is currently:"
        katz_deli.each do |name|
@@ -13,6 +13,7 @@ def line(katz_deli)
           i += 1
         end
         new_array.join
+        return new_arr
   end
 
 end
