@@ -13,7 +13,7 @@ def line(katz_deli)
           i += 1
         end
         new_array.join
-        puts new_array
+        puts "#{new_array}"
   end
 
 end
