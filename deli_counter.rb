@@ -7,7 +7,7 @@ def line(katz_deli)
       i = 1
       puts "The line is currently:"
       katz_deli.length.times do
-       puts #{i}". "katz_deli[i]
+       puts "#{i}". "katz_deli[i]"
        i += 1
      end
 
