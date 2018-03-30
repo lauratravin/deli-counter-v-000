@@ -7,9 +7,9 @@ def line(katz_deli)
 
        new_array = []
        i = 1
-       new_array << "The line is currently: "
+       new_array << "The line is currently:"
        katz_deli.each do |name|
-          new_array <<  "#{i}. #{name} "
+          new_array <<  " #{i}. #{name}"
           i += 1
         end
 
