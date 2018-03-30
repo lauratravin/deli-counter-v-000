@@ -23,6 +23,10 @@ def take_a_number(katz_deli,name)
 end
 
 def now_serving(katz_deli)
-  puts "Currently serving #{}{katz_deli.first}."
+  if katz_deli.empty?
+    puts "There is nobody waiting to be served!"
+  elsif
+    puts "Currently serving #{katz_deli.shift}."
+    katz_deli.shift
 
 end
