@@ -5,10 +5,10 @@ def line(katz_deli)
      puts "The line is currently empty."
   elsif
 
-      
+
 
        katz_deli.each do |name|
-          return name
+          puts name
 
         end
   end
