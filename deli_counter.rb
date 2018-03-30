@@ -12,8 +12,9 @@ def line(katz_deli)
           new_array <<  " #{i}. #{name}"
           i += 1
         end
-
         puts "#{new_array.join}"
   end
+end
 
+def take_a_number(katz_deli,name)
 end
